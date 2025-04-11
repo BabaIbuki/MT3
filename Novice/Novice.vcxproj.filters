@@ -14,11 +14,17 @@
     <Filter Include="KamataEngine\Adapter">
       <UniqueIdentifier>{c6468eb4-788b-4a83-b207-a5f4804e56c5}</UniqueIdentifier>
     </Filter>
+    <Filter Include="KamataEngine\hedda-">
+      <UniqueIdentifier>{6966a7ca-a205-4478-b1db-babf146d9163}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
     <ClCompile Include="C:\KamataEngine\Adapter\Novice.cpp">
       <Filter>KamataEngine\Adapter</Filter>
+    </ClCompile>
+    <ClCompile Include="Function.cpp">
+      <Filter>KamataEngine\Source</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -102,6 +108,12 @@
     </ClInclude>
     <ClInclude Include="C:\KamataEngine\DirectXGame\2d\ImGuiManager.h">
       <Filter>KamataEngine\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3.h">
+      <Filter>KamataEngine\hedda-</Filter>
+    </ClInclude>
+    <ClInclude Include="Function.h">
+      <Filter>KamataEngine\hedda-</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
